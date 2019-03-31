@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFLM_PredatorPrey.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Application.cpp
+c:\users\james\documents\github\sflm_predatorprey\application.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\james\documents\github\sflm_predatorprey\application.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SFLM_PredatorPrey.vcxproj -> C:\Users\James\Documents\GitHub\SFLM_PredatorPrey\Debug\SFML_PredatorPrey.exe
+  SFLM_PredatorPrey.vcxproj -> C:\Users\James\Documents\GitHub\SFLM_PredatorPrey\Debug\SFML_PredatorPrey.pdb (Full PDB)
