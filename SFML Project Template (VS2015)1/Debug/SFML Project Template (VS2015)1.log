@@ -1,5 +1,8 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFLM_PredatorPrey.vcxproj, SFML Project Template (VS2015)1.vcxproj, SFML_PredatorPrey.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Virus.cpp
-c:\users\james\documents\github\sfml_bacteriophages\sfml project template (vs2015)1\virus.cpp(34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Main.cpp
+c:\users\james\documents\github\sfml_bacteriophages\sfml project template (vs2015)1\main.cpp(18): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\james\documents\github\sfml_bacteriophages\sfml project template (vs2015)1\main.cpp(54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\james\documents\github\sfml_bacteriophages\sfml project template (vs2015)1\main.cpp(121): warning C4018: '<': signed/unsigned mismatch
+c:\users\james\documents\github\sfml_bacteriophages\sfml project template (vs2015)1\main.cpp(144): warning C4018: '<': signed/unsigned mismatch
   SFML Project Template (VS2015)1.vcxproj -> C:\Users\James\Documents\GitHub\SFML_Bacteriophages\Debug\BacteriophagesSimulator.exe
   SFML Project Template (VS2015)1.vcxproj -> C:\Users\James\Documents\GitHub\SFML_Bacteriophages\Debug\BacteriophagesSimulator.pdb (Full PDB)

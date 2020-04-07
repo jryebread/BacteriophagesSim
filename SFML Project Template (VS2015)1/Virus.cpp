@@ -31,7 +31,7 @@ void Virus::update(std::vector<Virus>& virusVector, float time)
 	// SFML's y-axis is flipped: flip our y-component
 	auto angleRads = std::atan2(-velocity.y, velocity.x);
 	auto angleDegs = angleRads * 180.0 / 3.14;
-	sprite.rotate(angleDegs);
+	sprite.setRotation(angleDegs); 
 	//IN SFML, 0,0 is the top left corner of the screen which is we check if < 0, 
 	//If its leaving toward the left, we need to set the horizontal velocity to a positive value(towards the right)
 	if (left() < 0) velocity.x = this->vSpeed;
